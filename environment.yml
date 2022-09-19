@@ -1,0 +1,20 @@
+# conda env create --file environment.yml
+name: abi
+channels:
+  - defaults
+dependencies:
+  - pip
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - invoke
+  - black
+  - seaborn
+  - nbdime
+  - python=3.7
+  - jupyterlab
+  - pyjanitor
+  - pyprojroot
+  - plotly
+  - pyspark
